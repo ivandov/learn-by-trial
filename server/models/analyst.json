@@ -1,0 +1,14 @@
+{
+  "name": "Analyst",
+  "plural": "analyst",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

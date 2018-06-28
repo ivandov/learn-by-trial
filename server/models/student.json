@@ -1,0 +1,54 @@
+{
+  "name": "Student",
+  "plural": "student",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "birthdate": {
+      "type": "date",
+      "required": true
+    },
+    "sex": {
+      "type": "string",
+      "required": true
+    },
+    "race": {
+      "type": "string"
+    },
+    "ethnicity": {
+      "type": "string"
+    },
+    "siblings": {
+      "type": "object"
+    },
+    "language_level": {
+      "type": "number"
+    },
+    "diagnoses": {
+      "type": [
+        "string"
+      ]
+    },
+    "medications": {
+      "type": [
+        "object"
+      ]
+    },
+    "other_therapies": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

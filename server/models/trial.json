@@ -1,0 +1,27 @@
+{
+  "name": "trial",
+  "plural": "trial",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "behavior_tech_id": {
+      "type": "string",
+      "required": true
+    },
+    "outcome": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
