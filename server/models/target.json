@@ -1,5 +1,5 @@
 {
-  "name": "target",
+  "name": "Target",
   "plural": "target",
   "base": "PersistedModel",
   "idInjection": true,

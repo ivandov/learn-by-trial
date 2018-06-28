@@ -14,7 +14,8 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "db",
+    "public": false
   },
   "AccessToken": {
     "dataSource": "db",
@@ -39,10 +40,6 @@
     "dataSource": "db",
     "public": true
   },
-  "student": {
-    "dataSource": "db",
-    "public": true
-  },
   "Student": {
     "dataSource": "db",
     "public": true
@@ -55,11 +52,11 @@
     "dataSource": "db",
     "public": false
   },
-  "target": {
+  "Target": {
     "dataSource": "db",
     "public": true
   },
-  "trial": {
+  "Trial": {
     "dataSource": "db",
     "public": true
   },
