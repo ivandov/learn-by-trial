@@ -1,6 +1,6 @@
 {
   "name": "Target",
-  "plural": "target",
+  "plural": "targets",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

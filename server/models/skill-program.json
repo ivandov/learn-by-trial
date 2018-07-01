@@ -1,6 +1,6 @@
 {
   "name": "SkillProgram",
-  "plural": "program",
+  "plural": "programs",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
