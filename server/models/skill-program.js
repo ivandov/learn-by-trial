@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(Skillprogram) {
-
+module.exports = function(SkillProgram) {
+  SkillProgram.validatesPresenceOf('studentId')
 };

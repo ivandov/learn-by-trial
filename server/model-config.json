@@ -50,7 +50,7 @@
   },
   "SupplementaryObjective": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "Target": {
     "dataSource": "db",

@@ -6,6 +6,16 @@
   "options": {
     "validateUpsert": true
   },
+  "_relations": {
+    "skillPrograms": {
+      "type": "hasMany",
+      "model": "SkillProgram",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "properties": {
     "name": {
       "type": "string",
@@ -48,7 +58,26 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "skillPrograms": {
+      "type": "hasMany",
+      "model": "SkillProgram",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true,
+        "disableInclude": true
+      }
+    },
+    "supplementaryObjectives": {
+      "type": "hasMany",
+      "model": "SupplementaryObjective",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true,
+        "disableInclude": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -1,5 +1,6 @@
 {
   "name": "SupplementaryObjective",
+  "plural": "objectives",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -25,7 +26,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "student": {
+      "type": "belongsTo",
+      "model": "Student",
+      "foreignKey": "",
+      "options": {
+        "disableInclude": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
