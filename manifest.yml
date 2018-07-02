@@ -1,0 +1,7 @@
+---
+applications:
+- name: learn_by_trial_api
+  memory: 512M
+  instances: 1
+  env:
+    NPM_CONFIG_PRODUCTION: false
