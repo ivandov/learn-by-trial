@@ -18,6 +18,7 @@ dist
 # build files
 client/dist
 client/node_modules
+db
 
 # local env files
 .env.local

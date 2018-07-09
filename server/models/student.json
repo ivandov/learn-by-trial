@@ -59,7 +59,7 @@
   },
   "validations": [],
   "relations": {
-    "skillPrograms": {
+    "programs": {
       "type": "hasMany",
       "model": "SkillProgram",
       "foreignKey": "",
@@ -68,7 +68,7 @@
         "disableInclude": true
       }
     },
-    "supplementaryObjectives": {
+    "objectives": {
       "type": "hasMany",
       "model": "SupplementaryObjective",
       "foreignKey": "",

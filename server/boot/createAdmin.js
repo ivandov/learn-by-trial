@@ -2,6 +2,19 @@
 
 module.exports = function(app) {
   var User = app.models.Analyst;
+  
+  User.count({}, (err, count) => {
+    if (err) console.err(err)
+    console.log("Analyst model count: " + count)
+
+    if(count !== 3){
+      createStaticUsers(app)
+    }
+  })
+};
+
+function createStaticUsers(app){
+  var User = app.models.Analyst;
   var Role = app.models.Role;
   var RoleMapping = app.models.RoleMapping;
   var Team = app.models.Team;
@@ -74,4 +87,4 @@ module.exports = function(app) {
       });
     });
   });
-};
+}

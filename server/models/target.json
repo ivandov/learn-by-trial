@@ -11,16 +11,30 @@
       "type": "string",
       "required": true
     },
+    "promptLevel": {
+      "type": "number"
+    },
     "description": {
       "type": "string",
       "required": true
     },
-    "prompt_level": {
-      "type": "number"
+    "startDate": {
+      "type": "date",
+      "required": true
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "skillProgram": {
+      "type": "belongsTo",
+      "model": "SkillProgram",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
