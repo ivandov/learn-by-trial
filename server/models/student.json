@@ -76,6 +76,14 @@
         "nestRemoting": true,
         "disableInclude": true
       }
+    },
+    "appointments": {
+      "type": "hasMany",
+      "model": "Appointment",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],
