@@ -19,10 +19,11 @@
   "relations": {
     "sessions": {
       "type": "hasMany",
-      "model": "session",
+      "model": "Session",
       "foreignKey": "",
       "options": {
-        "nestRemoting": true
+        "nestRemoting": true,
+        "disableInclude": false
       }
     }
   },

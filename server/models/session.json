@@ -10,6 +10,10 @@
     "date": {
       "type": "date",
       "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
