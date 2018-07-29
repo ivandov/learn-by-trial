@@ -25,6 +25,11 @@
         "nestRemoting": true,
         "disableInclude": false
       }
+    },
+    "student": {
+      "type": "belongsTo",
+      "model": "Student",
+      "foreignKey": ""
     }
   },
   "acls": [],

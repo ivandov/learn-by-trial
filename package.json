@@ -32,7 +32,7 @@
   },
   "nodemonConfig": {
     "ignore": [
-      "client/*"
+      "db/*"
     ],
     "delay": "2500"
   },

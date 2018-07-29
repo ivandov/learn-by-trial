@@ -38,7 +38,19 @@
   },
   "Analyst": {
     "dataSource": "db",
-    "public": true
+    "public": false
+  },
+  "Caregiver": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Technician": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Researcher": {
+    "dataSource": "db",
+    "public": false
   },
   "Student": {
     "dataSource": "db",
@@ -57,18 +69,6 @@
     "public": true
   },
   "Trial": {
-    "dataSource": "db",
-    "public": true
-  },
-  "Caregiver": {
-    "dataSource": "db",
-    "public": true
-  },
-  "Technician": {
-    "dataSource": "db",
-    "public": true
-  },
-  "Researcher": {
     "dataSource": "db",
     "public": true
   },

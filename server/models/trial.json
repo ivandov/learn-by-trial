@@ -11,17 +11,49 @@
       "type": "date",
       "required": true
     },
-    "behavior_tech_id": {
+    "duration": {
+      "type": "number",
+      "required": true
+    },
+    "behaviorTechId": {
       "type": "string",
       "required": true
     },
-    "outcome": {
-      "type": "object",
+    "correctAnswer": {
+      "type": "boolean",
       "required": true
+    },
+    "supplementaryObjectives": {
+      "type": [
+        "string"
+      ]
+    },
+    "program": {
+      "type": "string",
+      "required": true
+    },
+    "target": {
+      "type": "string",
+      "required": true
+    },
+    "notes": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "targets": {
+      "type": "hasOne",
+      "model": "Target",
+      "foreignKey": ""
+    },
+    "skillPrograms": {
+      "type": "hasOne",
+      "model": "SkillProgram",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

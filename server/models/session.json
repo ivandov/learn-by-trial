@@ -14,6 +14,10 @@
     "label": {
       "type": "string",
       "required": false
+    },
+    "notes": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
