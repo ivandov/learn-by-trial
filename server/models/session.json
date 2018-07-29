@@ -11,6 +11,10 @@
       "type": "date",
       "required": true
     },
+    "endDate": {
+      "type": "date",
+      "required": false
+    },
     "label": {
       "type": "string",
       "required": false
