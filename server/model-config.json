@@ -38,7 +38,7 @@
   },
   "Analyst": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "Caregiver": {
     "dataSource": "db",
